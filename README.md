@@ -28,8 +28,7 @@ $ eb --version
 
 #### django 버전 주의하기!   
 ```   
-$ python3
-<b-m venv myvenv
+$ python3 -m venv myvenv
 $ source myvenv/bin/activate
 $ python3 -m pip install --upgrade pip
 $ pip install django==2.1.1
